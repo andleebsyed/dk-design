@@ -1,0 +1,39 @@
+.header-outer {
+  background-color: #146eb4;
+  height: 328px;
+}
+.header-inner {
+  display: flex;
+  position: relative;
+  margin-left: 160px;
+  margin-right: 160px;
+  top: 23px;
+}
+.right-section {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.sign-in {
+  text-align: center;
+  color: white;
+  margin-right: 32px;
+  text-decoration: none;
+  text-align: center;
+}
+.sign-in:hover {
+  text-decoration: underline;
+}
+
+.pc-link {
+  width: 177px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #146eb4;
+  font-size: 18px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,71 @@
+.footer-outer {
+  height: 283px;
+  background-color: #1a181e;
+}
+.footer-inner {
+  margin: 0px 160px 0px 160px;
+  padding-top: 64px;
+  /* border-bottom: 1px solid white; */
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  margin-right: 132px;
+  align-self: start;
+}
+
+.external-link {
+  color: white;
+  text-decoration: none;
+  margin: 0px 0px 16px 0px;
+}
+
+.external-link:hover {
+  text-decoration: underline;
+}
+/* 
+.links-outer-container {
+  display: flex;
+  border: 1px solid blue;
+} */
+
+.links-inner-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.jobs-container {
+  position: relative;
+}
+
+.job-count {
+  position: absolute;
+  top: 40px;
+  right: -16px;
+  color: #1a181e;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rock-bottom-outer {
+  margin: 40px 160px 0px 160px;
+  border-top: 1px solid white;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flag-outer {
+  display: flex;
+  align-items: center;
+}
+.location-flag {
+  margin-left: 8px;
+}

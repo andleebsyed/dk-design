@@ -4,10 +4,12 @@ export function Header() {
     return (
         <div className="header-outer">
             <header className="header-inner">
-                <img src={logo} alt="logo" />
+                <a className="sign-in" href="https://mydukaan.io/" ><img src={logo} alt="logo" /></a>
+
+
                 <section className="right-section">
-                    <a className="sign-in" href="www.dukaan.io" >Sign In</a>
-                    <a className="pc-link" href="www.dukaan.io">Dukaan for PC</a>
+                    <a className="sign-in" href="https://mydukaan.io/" >Sign In</a>
+                    <a className="pc-link" href="https://mydukaan.io/">Dukaan for PC</a>
                 </section>
             </header>
 

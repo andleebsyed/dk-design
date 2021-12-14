@@ -19,17 +19,13 @@
 .external-link {
   color: white;
   text-decoration: none;
+  text-align: left;
   margin: 0px 0px 16px 0px;
 }
 
 .external-link:hover {
   text-decoration: underline;
 }
-/* 
-.links-outer-container {
-  display: flex;
-  border: 1px solid blue;
-} */
 
 .links-inner-container {
   display: flex;

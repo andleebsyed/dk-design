@@ -1,5 +1,5 @@
 import './Slogan.css'
-import Union from '../../assets/Union.svg'
+import Cancel from '../../assets/Cancel.svg'
 import Path from '../../assets/Path.svg'
 export function Slogan() {
     const slogans = [
@@ -28,7 +28,7 @@ export function Slogan() {
                 <section className="search-slogan">
                     <label className="input-slogan">Word for your slogan</label>
                     <input className="search-box" placeholder="cozy" />
-                    <img src={Union} alt="Clear" className="clear-btn" />
+                    <img src={Cancel} alt="Clear" className="clear-btn" />
                     <button className="slogan-generate-btn">Generate slogans</button>
                 </section>
                 <section className="slogan-list">

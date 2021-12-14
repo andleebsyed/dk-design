@@ -1,6 +1,5 @@
 .products-outer {
-  margin-left: 160px;
-  margin-right: 160px;
+  margin: 0px 160px 80px 160px;
 }
 
 .products-heading {

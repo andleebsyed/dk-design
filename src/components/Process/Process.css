@@ -1,0 +1,38 @@
+.process-outer {
+  height: 332px;
+  background-color: #146eb4;
+  background: rgba(20, 110, 180, 0.1);
+  margin: 0px;
+  padding: 0px;
+}
+
+.process-inner {
+  margin-left: 160px;
+  margin-right: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.single-item {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 352px;
+  position: relative;
+  top: 76px;
+}
+.search-img {
+  height: 72px;
+  width: 72px;
+}
+.item-heading {
+  color: #1a181e;
+}
+.item-text {
+  margin: 0px;
+  color: #4d4d4d;
+}

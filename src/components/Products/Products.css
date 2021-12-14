@@ -1,21 +1,17 @@
 .products-outer {
   margin-left: 160px;
   margin-right: 160px;
-  /* border: 1px solid red; */
-  /* margin-top: 80px; */
 }
 
 .products-heading {
   text-align: left;
   color: #1a181e;
   margin-top: 80px;
-  /* margin-bottom: 48px; */
 }
 .product-card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: start;
   width: 352px;
   margin-top: 32px;
 }

@@ -23,7 +23,8 @@ export function Products() {
                     <img src={DomainNameGenerator} alt="Domain name generator" />
                     <h5 className="product-name">Domain Name Generator</h5>
                     <p className="product-description">Stock your store with 100s of products and start selling to customers in minutes, without the hassle of inventory or packaging.</p>
-                </section> <section className="product-card">
+                </section>
+                <section className="product-card">
                     <img src={InvoiceGenerator} alt="Invoice Generator" />
                     <h5 className="product-name">Invoice Generator</h5>
                     <p className="product-description">Stock your store with 100s of products and start selling to customers in minutes, without the hassle of inventory or packaging.</p>
